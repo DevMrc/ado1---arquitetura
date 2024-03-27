@@ -8,7 +8,7 @@ public class Cliente {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
         System.out.println("Escolha um algoritmo de ordenação: 1 - Insertion Sort, 2 - Selection Sort, 3 - Bubble Sort");
-        int i = 3;  
+        int i = ler.nextInt();  
         int[] z = new int[3];
         z[0] = 2;
         z[1] = 7;
