@@ -24,8 +24,4 @@ public class Pedido {
     public double calcularTotal() {
         return this.valorTotal;
     }
-
-    public void cupomFiscal() {
-        // Implementação do método cupomFiscal
-    }
 }
